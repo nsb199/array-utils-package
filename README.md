@@ -6,13 +6,15 @@ This npm package provides a collection of utility functions for performing commo
 
 To install this package, run the following command:
 
+```bash
 npm install array-utils-package
-
+```
 
 ## Usage
 
 After installing the package, you can import and use the provided utility functions in your project. Below is an example of how to use the package:
 
+```bash
 const arrayUtils = require('array-utils-package');
 
 const numbers = [1, 2, 2, 3, 4, 5, 5, 6, 7];
@@ -39,6 +41,7 @@ const arr2 = [2, 3, 4];
 console.log(arrayUtils.difference(arr1, arr2)); // Output: [1]
 
 console.log(arrayUtils.intersect(arr1, arr2)); // Output: [2, 3]
+```
 
 ## Functions
 
